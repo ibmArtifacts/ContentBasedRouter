@@ -10,7 +10,7 @@ session.input.readAsBuffers(function (error, input) {
   else {
 	
 	if (input == '') {
-		session.output.write("Please enter something");
+		session.output.write("Please enter name, accounts, or beneficiaries.");
 		service.mpgw.skipBackside = true;
 	}	
 	
